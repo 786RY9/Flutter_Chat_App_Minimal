@@ -21,25 +21,26 @@ This app is designed for those who want a clean, lightweight chatting experience
 
 > _Here’s a glimpse of the app in action!_
 
-[Watch the Video](media/Demo.gif)
+### App in Action (GIF):
+
+<img src="media/Demo.gif" alt="App Demo" width="400"/>
 
 ### Light Mode:
 
-![Light Mode](media/5.jpeg)
+<img src="media/5.jpeg" alt="Light Mode" width="300"/>
 
 ### Dark Mode:
 
-![Dark Mode](media/7.jpeg)
+<img src="media/7.jpeg" alt="Dark Mode" width="300"/>
 
 ### Chat Screen:
 
-![Chat Screen](media/3.jpeg)
+<img src="media/3.jpeg" alt="Chat Screen" width="300"/>
 
-### Login
+### Login:
 
-![Login Screen](media/1.jpeg)
-![Login Screen](media/8.jpeg)
-
+<img src="media/1.jpeg" alt="Login Screen" width="300"/>
+<img src="media/8.jpeg" alt="Login Screen 2" width="300"/>
 ---
 
 ## 🛠️ Getting Started
