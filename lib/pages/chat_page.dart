@@ -22,28 +22,30 @@ class _ChatPageState extends State<ChatPage> {
 
   // for textfield focus node
 
-  FocusNode focusNode = FocusNode();
+  FocusNode myFocusNode = FocusNode();
 
   @override
   void initState() {
     super.initState();
-    focusNode.addListener(() {
-      if (focusNode.hasFocus) {
+    myFocusNode.addListener(() {
+      if (myFocusNode.hasFocus) {
         //  casue a delay so that keyboard has time to show up
         // then the amount of remaining space will be calculated
         // then scroll down
 
-        Future.delayed(const Duration(seconds: 500), () => scrollDown());
+        scrollDown();
+        // Future.delayed(const Duration(milliseconds: 200), () => scrollDown());
       }
     });
+    // scrollDown();
 
-    Future.delayed(Duration(milliseconds: 500), () => scrollDown());
+    // Future.delayed(Duration(milliseconds: 200), () => scrollDown());
   }
 
   @override
   void dispose() {
+    myFocusNode.dispose();
     _messageController.dispose();
-    focusNode.dispose();
     super.dispose();
   }
 
@@ -162,7 +164,7 @@ class _ChatPageState extends State<ChatPage> {
         children: [
           Expanded(
             child: MyTextfield(
-              focusNode: focusNode,
+              focusNode: myFocusNode,
               hintText: 'Type a message',
               obscure: false,
               controller: _messageController,
