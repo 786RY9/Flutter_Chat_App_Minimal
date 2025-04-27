@@ -21,24 +21,24 @@ This app is designed for those who want a clean, lightweight chatting experience
 
 > _Here’s a glimpse of the app in action!_
 
-[Watch the Video](media/Screen_Recording_Tutorial_Android.mp4)
+[Watch the Video](media/Demo.gif)
 
 ### Light Mode:
 
-![Light Mode](media/5.jpg)
+![Light Mode](media/5.jpeg)
 
 ### Dark Mode:
 
-![Dark Mode](media/7.jpg)
+![Dark Mode](media/7.jpeg)
 
 ### Chat Screen:
 
-![Chat Screen](media/3.jpg)
+![Chat Screen](media/3.jpeg)
 
 ### Login
 
-![Login Screen](media/1.jpg)
-![Login Screen](media/8.jpg)
+![Login Screen](media/1.jpeg)
+![Login Screen](media/8.jpeg)
 
 ---
 
